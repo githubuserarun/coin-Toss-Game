@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to right, #f9d423, #e2a139);
+}
+.innercontainer {
+  min-width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  text-align: center;
+}
+
+.para {
+  color: #334155;
+  font-size: 14px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.countcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.countpara {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px;
+}
+@media screen and (max-width: 425px) {
+  .innercontainer {
+    min-width: 90%;
+  }
+}
